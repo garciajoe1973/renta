@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculos Financieros</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript" src="CalcFin.js"></script>
+</head>
+<body>
+	<h1 id="hclave">Calculo de Rentabilidades <img src="Formula-interes-co.jpg" width="250px" alt="girl" class="dibu">Calculo de Rentabilidades <img src="interes.jpg" width="975px" height="180"    alt="girl" class="dibu"></h1> 
+	<h2> Ingrese los datos necesarios</h2>
+	 <h3>Elija una incognita a encontrar</h3>  
+	      
+    <form name="fformula">
+         <input type="radio" id="Co" name="formula" value="Co" checked>
+         <label for="Co">Capital Inicial Co</label>  
+     <div>      
+     <div>
+       <input type="radio" id="Cf" name="formula" value="Cf">
+       <label for="Cf">Capital Final Cf</label>
+     </div>
+
+
+      <div>
+        <input type="radio" id="i" name="formula" value="i">
+        <label for="i">Interes i</label>
+      </div>
+            <div>
+        <input type="radio" id="n" name="formula" value="n">
+        <label for="n">Cantidad de periodos n</label>
+        <br>
+        <input type="Button" name="a" value="opcion elegida" onclick="formulaFinanciera()"> 
+      </form>
+      <h2 id="hh"></h2>
+      <h2 id="jj"></h2>
+      <h2 id="kk"></h2>
+    <div id="container"><label id="l1"><input type="hidden" id="in"></label></div>     
+</body>
+</html>
